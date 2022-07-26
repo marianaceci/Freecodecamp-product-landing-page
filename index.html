@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9496e249f1.js" crossorigin="anonymous"></script>
+    <title>Magazine</title>    
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://cdn.pixabay.com/photo/2016/01/21/21/23/rose-1154830_960_720.png" alt="logo da marca" />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li>
+              <a href="#how-it-works" class="nav-link">How it works</a>
+            </li>
+            <li>
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero">
+        <h1>Start growing your produce today!</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="Enter your e-mail address" />
+          <input id="submit" type="submit" class="btn" value="Get Started!" />
+        </form>
+      </section>
+      <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="desc">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Etiam imperdiet efficitur imperdiet. Pellentesque non turpis vel mi efficitur bibendum. Pellentesque in massa sapien. Phasellus quis libero sed augue eleifend hendrerit sed vel lacus.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="desc">
+                    <h3>Neque porro</h3>
+                    <p>Pellentesque non turpis vel mi efficitur bibendum. Pellentesque in massa sapien. Phasellus quis libero sed augue eleifend hendrerit sed vel lacus.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+                <div class="desc">
+                    <h3>Quisquam est</h3>
+                    <p>Phasellus quis libero sed augue eleifend hendrerit sed vel lacus. Aliquam vehicula dapibus pulvinar. Sed pellentesque nulla sed tellus varius, dapibus tempus ex laoreet. Nullam.</p>
+                </div>
+            </div>
+          
+        </section>
+
+        <section id="how-it-works">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0fcpi1Yje1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="pricing">
+            <div class="product" id="op1">
+                <div class="level">Option 1</div>
+                <h3>$50</h3>
+                <ol>
+                    <li>Etiam imperdiet.</li>
+                    <li>Efficitur imperdiet.</li>
+                    <li>Pellentesque non turpis.</li>
+                    <li>Efficitur bibendum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="op2">
+                <div class="level">Option 2</div>
+                <h3>$100</h3>
+                <ol>
+                    <li>Aliquam vehicula.</li>
+                    <li>dapibus pulvinar.</li>
+                    <li>Etiam imperdiet.</li>
+                    <li>Pellentesque non turpis.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="op3">
+                <div class="level">Option 3</div>
+                <h3>$150</h3>
+                <ol>
+                    <li>Pellentesque turpis</li>
+                    <li>Sed pellentesque.</li>
+                    <li>Dapibus tempus.</li>
+                    <li>Etiam imperdiet.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+
+        </section>
+
+      </div>
+    </div>
+  </body>
+</html>
